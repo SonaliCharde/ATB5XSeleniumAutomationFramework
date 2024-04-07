@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Pramod Dutta/ATB5XSeleniumAutomationFramework">
+        <classes>
+
+            <class name="org.example.basetest.Tests.TestVWOLoginPOMBaseTest">
+                <methods>
+                    <include name="testloginPositive"/>
+                </methods>
+                <methods>
+                    <include name="testloginNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
